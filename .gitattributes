@@ -1,0 +1,5 @@
+# Keep line endings stable across Windows / macOS / Linux so the CSVs
+# read identically no matter who clones the repo.
+* text=auto eol=lf
+*.csv text eol=lf
+*.png binary
